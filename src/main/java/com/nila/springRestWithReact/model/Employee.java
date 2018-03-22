@@ -16,6 +16,7 @@ public class Employee {
 	private String firstName;
 	private String lastName;
 	private String jobDescription;
+	private String address;
 	
 	
 
@@ -25,11 +26,12 @@ public class Employee {
 
 
 
-	public Employee(String firstName, String lastName, String jobDescription) {
+	public Employee(String firstName, String lastName, String jobDescription,String address) {
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.jobDescription = jobDescription;
+		this.address = address;
 	}
 
 }

@@ -23,7 +23,7 @@ public class EmployeeStubLoader implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		Arrays.asList("John", "Doe")
 			.forEach(name ->
-		this.employeeRepository.save(new Employee(name,"","Developer")));
+		this.employeeRepository.save(new Employee(name,"","Developer","Cognizant,Siruseri,603103,Chennai")));
 
 	}
 
